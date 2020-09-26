@@ -1,0 +1,408 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('Img/fonts/icomoon.eot?thh9m0');
+  src:  url('Img/fonts/icomoon.eot?thh9m0#iefix') format('embedded-opentype'),
+    url('Img/fonts/icomoon.ttf?thh9m0') format('truetype'),
+    url('Img/fonts/icomoon.woff?thh9m0') format('woff'),
+    url('Img/fonts/icomoon.svg?thh9m0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e900";
+}
+
+.icon-menu {
+  color: white;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #1b2127;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+.logoContainer {
+  margin: 0px;
+  background: #1b2127;
+}
+
+.logo {
+  width: 70px;
+  margin: 0px 0px 0px 37px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -2px;
+  text-transform: lowercase;
+  color: white;
+  /*margin: 0;*/
+  /*margin: 0px 500px 70px 0px;*/
+  /*display: flex;*/
+}
+
+h1 strong {
+  color: #026fff;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: white;
+  font-family:'Source Sans Pro';
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.hero {
+  background-color: #1b2127;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	flex-wrap: wrap;
+}
+
+.hero-image {
+  object-fit: cover;
+
+}
+
+.proyect_1   {
+  border: 4px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 8px;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+	flex-wrap: wrap;
+}
+/*
+.proyect_2 {
+  border: 4px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 8px;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+} */
+/*
+.protect_2 strong {
+  font-family:'Fjalla One';
+}*/
+
+.porfolio {
+  background: #fafafa;
+}
+
+.portfolio-title {
+  margin: 20px 10px;
+  color: #056fff;
+}
+
+.proyect_1 strong {
+  font-family:'Fjalla One';
+}
+
+.proyect-details {
+	 width: 50%;
+}
+
+.proyect_1-imageContainer {
+
+	/* width: 562px;
+	height: 352px; */
+	margin: auto;
+	width: 50%;
+}
+
+.proyect_1-image {
+	max-width: 100%
+ /* width: 100%; */
+}
+
+.proyect_1-imageContainer2 {
+
+	/* width: 512px; */
+	/* height: 230px; */
+	/*display: flex;*/
+	/*align-items: center;	*/
+	/* margin: auto; */
+	/* width: auto; */
+	width: 50%;
+	margin: auto;
+}
+
+.proyect-title {
+  margin-bottom: 10px;
+  font-size: 30px;
+  display: block;
+}
+
+.proyect-date {
+  margin: 10px 0px;
+}
+
+
+
+/*
+.proyect_2-imageContainer {
+  width: 562px;
+  height: 352px;
+  margin: 0px 4px
+}*/
+
+.header {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+	flex-wrap: wrap;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+  margin: 0px;
+}
+
+.header ol li {
+  display: : flex;
+  height: inherit;
+}
+
+.menu {
+  height: inherit;
+}
+/*
+.aboutMy {
+  border: 4px solid grey;
+  border-radius: 10px;
+  margin: 8px
+} */
+
+.footer {
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.footer img {
+  vertical-align: middle;
+  margin: 0px 20px;
+}
+
+.aboutMy-imageContainer {
+  margin: 0px;
+}
+
+.aboutMyContainer {
+  /*border: 2px solid red;*/
+  margin: 1%;
+  width: 48%;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #f4fbff;
+}
+
+.aboutMy-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/*
+.aboutMy {
+  border: 2px solid red;
+  margin: 0px;
+  width: 480px;
+}*/
+
+.aboutMyContainer img {
+ width: 500px;
+ height: 250px;
+ margin: auto;
+ /*object-fit: cover;*/
+}
+
+.aboutMy-detail {
+  margin: 20px /* 40px*/;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 15px 0px 0px 0px;
+  text-align: center;
+  text-align: 20px;
+}
+
+.aboutMy-description {
+  text-align: left;
+}
+
+.aboutMy-url {
+  border: 1px solid red;
+  color: red;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.aboutMy-title {
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.contact {
+  background-color: #056fff;
+  color: white;
+  height: auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+	flex-wrap: wrap;
+}
+/*
+.contact-title {
+  padding-top: 30px;
+}*/
+
+.social {
+  display: flex;
+	align-items: center;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0px 10px;
+}
+
+.social-link.twitter {
+  background-image: url('Img/twitter.svg');
+}
+
+.social-link.facebook {
+  background-image: url('Img/facebook.svg');
+}
+
+.social-link.github {
+  background-image: url('Img/github.svg');
+}
+
+.social-link.instagram {
+  background-image: url('Img/instagram.svg');
+}
+
+.contact-formEmail input {
+  border-color: gray;
+  padding: 10px 0px 10px 30px;
+  background-image: url('envelope.svg');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.contact-formEmail button{
+  background: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.container{
+  max-width: 1000px ;
+	/* width: 100%; */
+	flex: 1;
+  margin: auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.aboutMy-image{
+  object-fit: cover;
+}
+/*
+.html-video {
+	 width: 100%;
+	 height: auto;
+} */
+
+.youtube-video {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.flexible-video {
+	 width: 100%;
+	 height: 0;
+	 padding-bottom: 56.25%;
+	 /* background: blue; */
+	 position: relative;
+}
+
+.burger-bottom{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0, .6);
+    display: none;
+    /* display: flex; */
+    text-align: center;
+     line-height: 40px;
+    position: fixed;
+    z-index: 4;
+}

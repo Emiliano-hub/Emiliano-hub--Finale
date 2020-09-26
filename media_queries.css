@@ -1,0 +1,196 @@
+@media screen and (max-width: 1024px) {
+   .container {
+      padding: 0 1em;
+   }
+   .hero {
+     width: auto;
+     height:auto;
+     position: relative;
+     overflow: hidden;
+     padding: 2em;
+   }
+   .hero-image{
+     position: absolute;
+     z-index: 1;
+     left: 0px;
+     right: 0px;
+     top: 0px;
+     bottom: 0px;
+     width: 100%;
+   }
+   .hero h1 {
+     font-size: 2.5em;
+     z-index: 2;
+     position: relative;
+     top: 0px;
+     /* background: rgba(0,0,0,.5) */
+     text-shadow: 1px 2px 2px #000;
+     /* filter: opacity(10%) blur(1px); */
+   }
+ }
+
+@media screen and (min-width: 768px) {
+  .proyect-details{
+     width: 50%;
+   }
+}
+
+@media screen and (max-width: 767px) {
+  .burger-bottom {
+    display: block;
+  }
+
+  .hero {
+    width: auto;
+    height:auto;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-image{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+  .hero h1 {
+    font-size: 2em;
+    z-index: 2;
+    position: relative;
+    top: 0px;
+  }
+
+  .header {
+    display: block;
+    height: auto;
+  }
+  .header ol {
+    display: inline;
+  }
+  .header ol a {
+    height: 50px;
+    justify-content: center;
+    font-size: 2em;
+    margin-bottom: .8em;
+  }
+  .menu {
+    position: fixed;
+    background: rgba(27, 33, 39, .9);
+    z-index: 3;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    /* height: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    transition: .7s;
+  }
+  .menu.is-active {
+    left: 0;
+  }
+  .menu ol {
+     padding: 0;
+  }
+  .logo {
+     margin: auto;
+     text-align: center;
+  }
+     .proyect_1{
+      display: block;
+   }
+   .proyect_1-imageContainer {
+      width: auto;
+      text-align: center;
+   }
+
+   .proyect_1-imageContainer2 {
+      width: auto;
+      text-align: center;
+   }
+
+   .proyect-details {
+      width: auto;
+      /* margin: auto; */
+      /* justify-content: center; */
+      /* width: 100% */
+      font-size: 16px;
+      /* (por defecto tiene 16 pero igual se los pongo xd) */
+   }
+
+   .proyect-title {
+      font-size: 1.4em;
+      margin: 0.2em ;
+   }
+
+   .proyect-date {
+      font-size: 1.1em;
+      margin: 0.2em ;
+   }
+
+   .proyect-description {
+      font-size: 0.8em;
+      margin: 0.2em ;
+   }
+
+   .aboutMyContainer {
+      width: auto;
+      flex-shrink: initial;
+   }
+
+   .aboutMy-imageContainer img {
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .proyect-details {
+      font-size: 12px;
+   }
+
+   .aboutMy-detail {
+      margin: 20px 8px;
+   }
+   .social {
+      height: auto;
+      padding: 1em;
+      text-align: center;
+      justify-content: center;
+   }
+   .contact {
+      margin: auto;
+      text-align: center;
+      width: auto;
+      display: block;
+   }
+
+    .contact-formEmail button {
+      margin: 1em auto;
+   }
+
+     .contact-formEmail {
+       margin: auto;
+   }
+
+      .footer {
+        display: block;
+        text-align: center;
+      }
+      .hero h1 {
+        font-size: 1.7em;
+      }
+}
+
+@media screen and (max-width: 320px) {
+    .social-link {
+      background-size: 41px 50px;
+    }
+    .hero h1 {
+      font-size: 1.4em;
+    }
+    .hero {
+      padding: 2em 1em;
+    }
+}
