@@ -17,6 +17,7 @@ function validation(event) {
      burgerButtom.removeEventListener("click", show)
   }
 }
+validation(media);
 
 function show() {
   if (menu.classList.contains("is-active")) {
